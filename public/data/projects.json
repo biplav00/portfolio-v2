@@ -1,84 +1,17 @@
 [
-    {
-      "name": "E-Commerce Platform Redesign",
-      "link": "https://example.com/ecommerce-redesign",
-      "description": "Redesigned a large-scale e-commerce platform to improve user experience, resulting in a 35% increase in conversions.",
-      "techStack": ["React", "Next.js", "TailwindCSS"],
-      "image": ""
-    },
-    {
-      "name": "Mobile Banking App",
-      "link": "https://example.com/mobile-banking",
-      "description": "Developed a secure mobile banking application with biometric authentication and real-time notifications.",
-      "techStack": ["Flutter", "Firebase", "REST APIs"],
-      "image": ""
-    },
+  {
+    "name": "Portfolio Website",
+    "link": "biplavsubedi.com.np",
+    "description": "Built a personal portfolio website showcasing projects, experience and tools.",
+    "techStack": ["Next.js", "Typescript", "Vercel", "HTML", "CSS"],
+    "image":""
+  },
     {
       "name": "Portfolio Website",
-      "link": "https://example.com/portfolio",
-      "description": "Built a personal portfolio website showcasing projects, blog posts, and contact form with serverless functions.",
-      "techStack": ["Next.js", "Contentful CMS", "Vercel"],
+      "link": "biplavsubedi.com.np",
+      "description": "Built a personal portfolio website showcasing projects, experience and tools.",
+      "techStack": ["Next.js", "Typescript", "Vercel", "HTML", "CSS"],
       "image":""
-    },
-    {
-      "name": "SaaS Analytics Dashboard",
-      "link": "https://example.com/saas-dashboard",
-      "description": "Created a real-time SaaS analytics dashboard for monitoring user engagement and sales metrics. Created a real-time SaaS analytics dashboard for monitoring user engagement and sales metrics. Created a real-time SaaS analytics dashboard for monitoring user engagement and sales metrics. Created a real-time SaaS analytics dashboard for monitoring user engagement and sales metrics.",
-      "techStack": ["React", "D3.js", "Node.js", "MongoDB"],
-      "image": ""
-    },
-    {
-      "name": "AI Chatbot Integration",
-      "link": "https://example.com/ai-chatbot",
-      "description": "Integrated an AI-powered chatbot into customer support systems, improving first-response resolution by 50%.",
-      "techStack": ["Dialogflow", "Node.js", "Express", "MongoDB"],
-      "image": ""
-    },
-    {
-      "name": "AI Chatbot Integration",
-      "link": "https://example.com/ai-chatbot",
-      "description": "Integrated an AI-powered chatbot into customer support systems, improving first-response resolution by 50%.",
-      "techStack": ["Dialogflow", "Node.js", "Express", "MongoDB"],
-      "image": ""
-    },
-    {
-      "name": "AI Chatbot Integration",
-      "link": "https://example.com/ai-chatbot",
-      "description": "Integrated an AI-powered chatbot into customer support systems, improving first-response resolution by 50%.",
-      "techStack": ["Dialogflow", "Node.js", "Express", "MongoDB"],
-      "image": ""
-    },
-    {
-      "name": "AI Chatbot Integration",
-      "link": "https://example.com/ai-chatbot",
-      "description": "Integrated an AI-powered chatbot into customer support systems, improving first-response resolution by 50%.",
-      "techStack": ["Dialogflow", "Node.js", "Express", "MongoDB"],
-      "image": ""
     }
-    , {
-      "name": "AI Chatbot Integration",
-      "link": "https://example.com/ai-chatbot",
-      "description": "Integrated an AI-powered chatbot into customer support systems, improving first-response resolution by 50%.",
-      "techStack": ["Dialogflow", "Node.js", "Express", "MongoDB"],
-      "image": ""
-    }, {
-      "name": "AI Chatbot Integration",
-      "link": "https://example.com/ai-chatbot",
-      "description": "Integrated an AI-powered chatbot into customer support systems, improving first-response resolution by 50%.",
-      "techStack": ["Dialogflow", "Node.js", "Express", "MongoDB"],
-      "image": ""
-    }, {
-      "name": "AI Chatbot Integration",
-      "link": "https://example.com/ai-chatbot",
-      "description": "Integrated an AI-powered chatbot into customer support systems, improving first-response resolution by 50%.",
-      "techStack": ["Dialogflow", "Node.js", "Express", "MongoDB"],
-      "image": ""
-    }, {
-      "name": "AI Chatbot Integration",
-      "link": "https://example.com/ai-chatbot",
-      "description": "Integrated an AI-powered chatbot into customer support systems, improving first-response resolution by 50%.",
-      "techStack": ["Dialogflow", "Node.js", "Express", "MongoDB"],
-      "image": ""
-    }
-  ]
+]
   

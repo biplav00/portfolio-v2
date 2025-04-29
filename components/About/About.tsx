@@ -1,6 +1,5 @@
 import "./About.css";
 import jsonData from "../../public/data/about.json";
-import Link from "next/link";
 import Image from "next/image";
 
 export default function About() {
@@ -15,7 +14,13 @@ export default function About() {
             <h1>{name}</h1>
             <h2>{position}</h2>
             <button className="resume-btn">
-              <Link href="/resume">View Resume</Link>
+              <a
+                href="/resume-biplav.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Resume
+              </a>
               <svg viewBox="0 0 24 24" stroke="currentColor" strokeWidth="4">
                 <path
                   strokeLinecap="round"
