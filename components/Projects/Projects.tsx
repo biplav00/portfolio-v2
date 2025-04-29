@@ -1,8 +1,9 @@
 import "./Projects.css";
 
 import projects from "../../public/data/projects.json";
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import Dialog from "../Dialog/Dialog";
+import Image from "next/image";
 
 export default function Projects() {
   const projectList = projects;
@@ -26,9 +27,13 @@ export default function Projects() {
             {projectList.map((project, index) => (
               <div className="project-card" key={index}>
                 <div className="image-card">
-                  <img
-                    src={project.image ? project.image : "placeholder.jpg"}
-                    alt=""
+                  <Image
+                    src={
+                      project.image ? project.image : "/assets/placeholder.jpg"
+                    }
+                    alt={"Project image"}
+                    width={100}
+                    height={100}
                   />
                 </div>
                 <div className="project-detail-card">
@@ -57,7 +62,10 @@ export default function Projects() {
       </div>
       {selectedProject && (
         <Dialog
-          tool={selectedProject}
+          tool={{
+            ...selectedProject,
+            techStack: selectedProject?.techStack || [],
+          }}
           closeModal={closeModal}
           enableImage={false}
           enableTechStack={true}

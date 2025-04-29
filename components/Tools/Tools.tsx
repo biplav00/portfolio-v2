@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./Tools.css";
 import toolsData from "../../public/data/tools.json";
 import Dialog from "../Dialog/Dialog";
+import Image from "next/image";
 
 export default function Skills() {
   const [selectedTool, setSelectedTool] = useState<{
@@ -29,10 +30,12 @@ export default function Skills() {
                     onClick={() => setSelectedTool(tool)}
                   >
                     {tool.image && (
-                      <img
+                      <Image
                         key={tool.image}
                         src={tool.image}
                         alt={tool.name}
+                        width={100}
+                        height={100}
                         onError={(e) => {
                           e.currentTarget.onerror = null;
                           e.currentTarget.style.display = "none";
