@@ -1,0 +1,67 @@
+.tool-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+
+.tool-modal-content {
+    border: 1px solid #ffffff;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    width: 70%;
+}
+
+.tool-modal-content h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.tool-modal-content p {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.tool-modal-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    border: 1px solid #ffffff;
+}
+
+.tool-modal-close:hover {
+    background-color: #ffffff;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+
+.buttons {
+    display: flex;
+    gap: 7px;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+}
+
+.btn-item {
+    border: 1px solid #ffffff;
+    margin-top: 3px;
+    padding: 0.3rem 0.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}

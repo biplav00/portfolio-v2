@@ -1,0 +1,83 @@
+[
+    {
+      "companyName": "Tech Innovators Ltd.",
+      "jobTitle": "Lead Front-End Developer",
+      "startDate": "May 2012",
+      "endDate": "March 2015",
+      "jobDescription": "Led a team of developers in creating dynamic user interfaces for e-commerce platforms, enhancing user engagement by 30%. Utilized AngularJS and Bootstrap for responsive design.",
+      "companyLink": "https://www.techinnovators.com"
+    },
+    {
+      "companyName": "Creative Solutions Agency",
+      "jobTitle": "Full Stack Developer",
+      "startDate": "April 2015",
+      "endDate": "August 2017",
+      "jobDescription": "Developed and maintained both client-side and server-side applications using Node.js, Express, and MongoDB. Implemented RESTful APIs, improving data retrieval times by 40%.",
+      "companyLink": "https://www.creativesolutions.com"
+    },
+    {
+      "companyName": "Global Web Services",
+      "jobTitle": "Senior Web Developer",
+      "startDate": "September 2017",
+      "endDate": "December 2019",
+      "jobDescription": "Spearheaded the redesign of the company's main website, resulting in a 50% increase in traffic. Integrated third-party APIs and optimized website performance.",
+      "companyLink": "https://www.globalwebservices.com"
+    },
+    {
+      "companyName": "Digital Creations Studio",
+      "jobTitle": "UI/UX Designer",
+      "startDate": "January 2020",
+      "endDate": "June 2021",
+      "jobDescription": "Collaborated with developers to design intuitive user interfaces for mobile applications, leading to a 25% increase in user retention rates.",
+      "companyLink": "https://www.digitalcreationsstudio.com"
+    },
+    {
+      "companyName": "NextGen Technologies",
+      "jobTitle": "Web Development Consultant",
+      "startDate": "July 2021",
+      "endDate": "Present",
+      "jobDescription": "Provide consulting services to startups on web development best practices, including performance optimization and scalability solutions.",
+      "companyLink": "https://www.nextgentechnologies.com"
+    },
+    {
+      "companyName": "Innovative Digital Solutions",
+      "jobTitle": "JavaScript Developer",
+      "startDate": "March 2013",
+      "endDate": "August 2014",
+      "jobDescription": "Developed interactive features for websites using JavaScript and jQuery, enhancing user experience and engagement.",
+      "companyLink": "https://www.innovativedigitalsolutions.com"
+    },
+    {
+      "companyName": "Tech Pioneers Inc.",
+      "jobTitle": "Backend Developer",
+      "startDate": "September 2014",
+      "endDate": "February 2016",
+      "jobDescription": "Built and maintained server-side applications using PHP and MySQL, ensuring robust data management and security.",
+      "companyLink": "https://www.techpioneers.com"
+    },
+    {
+      "companyName": "Digital Agency X",
+      "jobTitle": "Project Manager",
+      "startDate": "July 2020",
+      "endDate": "Present",
+      "jobDescription": "Oversee web development projects from inception to completion, ensuring timely delivery and client satisfaction.",
+      "companyLink": "https://www.digitalagencyx.com"
+    },
+    {
+      "companyName": "Web Solutions Co.",
+      "jobTitle": "DevOps Engineer",
+      "startDate": "February 2014",
+      "endDate": "July 2015",
+      "jobDescription": "Implemented continuous integration and deployment pipelines, reducing deployment times by 60%.",
+      "companyLink": "https://www.websolutionsco.com"
+    },
+    {
+      "companyName": "Global Tech Enterprises",
+      "jobTitle": "Cloud Solutions Architect",
+      "startDate": "August 2015",
+      "endDate": "January 2017",
+      "jobDescription": "Designed and deployed scalable cloud infrastructure solutions using AWS, improving system reliability.",
+      "companyLink": "https://www.globaltechenterprises.com"
+    }
+  ]
+  

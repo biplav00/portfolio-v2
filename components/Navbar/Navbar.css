@@ -1,0 +1,113 @@
+.menuContainer {
+    position: fixed;
+    top: 50%;
+    left: 1%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: fit-content;
+    padding: 0.7rem;
+    color: white;
+    background-color: transparent;
+    border-right: 1px solid #ffffff;
+    backdrop-filter: blur(5px);
+    z-index: 100;
+}
+
+.menuItem {
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    border: none;
+}
+
+.menuItem:hover {
+    padding: 1rem 0.5rem;
+    transform: scaleX(1.1);
+    transform-origin: left;
+    transition: all 0.2s ease-in-out;
+    color: white;
+}
+
+.menuItemActive {
+    padding: 1rem 0.5rem;
+    transform: scaleX(1.1);
+    transform-origin: left;
+    transition: all 0.2s ease-in-out;
+    color: white;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .menuContainer {
+        position: fixed;
+        left: 50%;
+        bottom: 0;
+        top: 91%;
+        flex-direction: row;
+        transform: translateX(-50%);
+        width: 100%;
+        padding: 1rem;
+        border-right: none;
+        border-top: 1px solid #ffffff;
+        backdrop-filter: blur(12px);
+    }
+
+    .menuItem {
+        padding: 1rem;
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    .menuItem:hover {
+        padding: 1rem 0.5rem;
+        transform: scale(1.1);
+        transform-origin: 0;
+        transition: all 0.2s ease-in-out;
+        color: white;
+    }
+
+    .menuItemActive {
+        padding: 1rem 0.5rem;
+        transform: scale(1.1);
+        transform-origin: 0;
+        transition: all 0.2s ease-in-out;
+        color: white;
+    }
+}
+
+
+
+@media screen and (max-width: 450px) {
+    .menuContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        flex-direction: column;
+        top: 0%;
+        bottom: 95%;
+        border-top: none;
+        border-bottom: 1px solid #ffffff;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .menuItem {
+        padding: 1rem;
+        flex-grow: 1;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    .menuItemActive {
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+    }
+
+}

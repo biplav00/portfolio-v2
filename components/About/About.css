@@ -1,0 +1,116 @@
+.detail-card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    height: 60%;
+    width: 80%;
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
+
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-container h1 {
+    font-size: 2.7rem;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.text-container h2 {
+    font-size: 1.7rem;
+    color: #ffffff;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+
+.resume-btn {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 0.7rem 1.1rem;
+    font-size: 14px;
+    width: fit-content;
+    cursor: pointer;
+    font-weight: bold;
+    background: transparent;
+    position: relative;
+    transition: all 1s;
+    overflow: hidden;
+    border-radius: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume-btn svg {
+    margin-left: 0.5rem;
+    height: 14px;
+}
+
+.resume-btn:hover {
+    color: rgb(0, 0, 0);
+}
+
+.resume-btn::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: -40px;
+    transform: skewX(45deg);
+    background-color: rgb(255, 255, 255);
+    z-index: -1;
+    transition: all 1s;
+}
+
+.resume-btn:hover::before {
+    width: 160%;
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 325px;
+    width: 325px;
+
+}
+
+.image-container img {
+    border-radius: 50%;
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 1275px) {
+    .image-container img {
+        height: 250px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .image-container img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .detail-card {
+        flex-direction: column-reverse;
+    }
+
+    .detail-card .text-container {
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+}

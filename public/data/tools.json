@@ -1,0 +1,71 @@
+{
+    "tools": [
+      {
+        "name": "Selenium",
+        "category": "Test Automation",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenium/selenium-original.svg",
+        "description": "An open-source framework for automating web browsers, supporting multiple programming languages and browsers."
+      },
+
+      {
+        "name": "Playwright",
+        "category": "Test Automation",
+        "image": "https://playwright.dev/img/playwright-logo.svg",
+        "description": "A Node.js library for browser automation that supports multiple browsers and provides capabilities for testing modern web applications."
+      },
+   
+      {
+        "name": "JMeter",
+        "category": "Performance Testing",
+        "image": "https://jmeter.apache.org/images/asf-logo.svg",
+        "description": "An open-source tool designed for load testing and measuring the performance of web applications and other services."
+      },
+      {
+        "name": "Postman",
+        "category": "API Testing",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg",
+        "description": "A collaboration platform for API development, enabling users to design, test, and monitor APIs."
+      },
+
+      {
+        "name": "Pytest",
+        "category": "Test Automation",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytest/pytest-original.svg",
+        "description": "A JavaScript-based end-to-end testing framework for web applications, providing fast and reliable testing capabilities."
+      },
+      
+
+      {
+        "name": "JIRA",
+        "category": "Test Management",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg",
+        "description": "A popular project management and issue tracking tool used for bug tracking and Agile project management."
+      },
+      {
+        "name": "TestRail",
+        "category": "Test Management",
+        "image": "https://cdn.pixabay.com/photo/2018/08/04/11/30/draw-3583548_1280.png",
+        "description": "A comprehensive test case management tool that helps teams manage, track, and organize test cases and results."
+      },
+      {
+        "name": "Zephyr",
+        "category": "Test Management",
+        "image": "",
+        "description": "A leading test management solution that integrates with JIRA, providing real-time test metrics and reporting."
+      },
+      {
+        "name": "Git",
+        "category": "Version Control",
+        "image": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+        "description": "A distributed version control system to track changes in source code during software development."
+      },
+    
+      {
+        "name": "GitHub",
+        "category": "Version Control",
+        "image": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+        "description": "A platform for version control and collaboration, allowing multiple people to work on projects at once."
+      }
+    ]
+  }
+  
