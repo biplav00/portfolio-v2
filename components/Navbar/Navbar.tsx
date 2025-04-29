@@ -1,16 +1,19 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import "./Navbar.css";
 
 export default function Navbar() {
-  const menuItems = [
-    { name: "About", href: "#about" },
-    { name: "Tools", href: "#tools" },
-    { name: "Experience", href: "#experience" },
-    { name: "Projects", href: "#projects" },
-    { name: "Contact", href: "#contact" },
-  ];
+  const menuItems = useMemo(
+    () => [
+      { name: "About", href: "#about" },
+      { name: "Tools", href: "#tools" },
+      { name: "Experience", href: "#experience" },
+      { name: "Projects", href: "#projects" },
+      { name: "Contact", href: "#contact" },
+    ],
+    []
+  );
 
   const [activeSection, setActiveSection] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
@@ -25,11 +28,6 @@ export default function Navbar() {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-
-  interface MenuItem {
-    name: string;
-    href: string;
-  }
 
   const handleClick = (href: string, index: number): void => {
     const section = document.querySelector(href);
@@ -62,7 +60,7 @@ export default function Navbar() {
     return () => {
       sections.forEach((section) => section && observer.unobserve(section));
     };
-  }, []);
+  }, [menuItems]);
 
   return (
     <nav className="menuContainer menuContainerPartial">

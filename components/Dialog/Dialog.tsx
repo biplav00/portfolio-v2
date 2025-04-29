@@ -1,9 +1,10 @@
 import React from "react";
 import "./Dialog.css";
+import Image from "next/image";
 
 interface DialogProps {
   tool: {
-    techStack: any;
+    techStack: string[];
     name: string;
     category?: string;
     image?: string;
@@ -29,7 +30,7 @@ const Dialog: React.FC<DialogProps> = ({
         >
           <h2>
             {enableImage && tool.image && (
-              <img
+              <Image
                 src={tool.image}
                 onError={(e) => (e.currentTarget.style.display = "none")}
                 alt={tool.name}

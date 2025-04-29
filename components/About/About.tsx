@@ -1,6 +1,7 @@
 import "./About.css";
 import jsonData from "../../public/data/about.json";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function About() {
   const name = jsonData.name;
@@ -25,10 +26,12 @@ export default function About() {
             </button>
           </section>
           <section className="image-container">
-            <img
-              className=""
-              src={imgPath ? imgPath : "assets/person.jpg"}
-            ></img>
+            <Image
+              src={imgPath ? imgPath : "/assets/person.jpg"}
+              alt={"Profile Picture"}
+              width={100}
+              height={100}
+            ></Image>
           </section>
         </div>
       </div>
