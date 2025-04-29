@@ -28,12 +28,13 @@ export default function Projects() {
               <div className="project-card" key={index}>
                 <div className="image-card">
                   <Image
+                    className="project-image"
                     src={
-                      project.image ? project.image : "assets/placeholder.jpg"
+                      project.image ? project.image : "/assets/placeholder.jpg"
                     }
                     alt={"Project image"}
-                    width={100}
-                    height={100}
+                    height={178}
+                    width={178}
                   />
                 </div>
                 <div className="project-detail-card">
