@@ -51,7 +51,18 @@ export default function Skills() {
           </div>
         </div>
       </div>
-      {selectedTool && <Dialog tool={selectedTool} closeModal={closeModal} />}
+      {selectedTool && (
+        <Dialog
+          tool={{
+            name: selectedTool.name,
+            category: selectedTool.category,
+            image: selectedTool.image,
+            description: selectedTool.description,
+            techStack: [],
+          }}
+          closeModal={closeModal}
+        />
+      )}
     </div>
   );
 }

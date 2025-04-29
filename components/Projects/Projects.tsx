@@ -29,7 +29,7 @@ export default function Projects() {
                 <div className="image-card">
                   <Image
                     src={
-                      project.image ? project.image : "/assets/placeholder.jpg"
+                      project.image ? project.image : "assets/placeholder.jpg"
                     }
                     alt={"Project image"}
                     width={100}
